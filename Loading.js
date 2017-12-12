@@ -9,7 +9,7 @@ const height = Dimensions.get('window').height
 
 let sibling = undefined
 
-const HUD = {
+const Loading = {
 
   show: () => {
     sibling = new RootSiblings(
@@ -49,4 +49,4 @@ const styles = StyleSheet.create({
   }
 )
 
-export {HUD}
+export {Loading}

@@ -10,7 +10,7 @@ import {
   Dimensions
 } from 'react-native'
 import {Toast} from './Toast'
-import {HUD} from './HUD'
+import {Loading} from './Loading'
 const width = Dimensions.get('window').width
 
 export default class App extends Component {
@@ -46,12 +46,12 @@ export default class App extends Component {
 
   hud(type) {
    if (type === 'show') {
-     HUD.show()
+     Loading.show()
      setTimeout(function () {
-       HUD.hidden()
+       Loading.hidden()
      }, 5000)
    } else {
-     HUD.hidden()
+     Loading.hidden()
    }
   }
 
