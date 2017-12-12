@@ -1,2 +1,2 @@
-# react-native-toastAndHud
-封装一个基于iOS与Android双平台的Toast组件和HUD组件
+# react-native-toastAndLoading
+封装一个基于iOS与Android双平台的Toast组件和加载Loading组件
